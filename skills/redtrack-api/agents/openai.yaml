@@ -1,0 +1,4 @@
+interface:
+  display_name: "RedTrack API"
+  short_description: "Build RedTrack Google Apps Script automations"
+  default_prompt: "Use $redtrack-api to build a Google Apps Script integration for the RedTrack API."

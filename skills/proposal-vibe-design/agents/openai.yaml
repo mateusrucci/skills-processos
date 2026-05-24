@@ -1,0 +1,7 @@
+interface:
+  display_name: "Proposal Vibe Design"
+  short_description: "Cria propostas premium em PDF ou PPTX"
+  default_prompt: "Use $proposal-vibe-design para criar uma proposta com direção de arte premium e entregar em PDF ou PPTX."
+
+policy:
+  allow_implicit_invocation: true

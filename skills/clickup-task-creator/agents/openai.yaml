@@ -1,0 +1,4 @@
+interface:
+  display_name: "ClickUp Task Creator"
+  short_description: "Cria e organiza tarefas no ClickUp"
+  default_prompt: "Use $clickup-task-creator para criar e organizar tarefas no meu ClickUp."

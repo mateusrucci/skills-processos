@@ -1,0 +1,4 @@
+interface:
+  display_name: "Canvas Design"
+  short_description: "Create polished posters and static visual art"
+  default_prompt: "Use $canvas-design to create a refined poster or other static visual piece."

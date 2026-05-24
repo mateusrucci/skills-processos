@@ -1,0 +1,4 @@
+interface:
+  display_name: "POP Falconi DOCX"
+  short_description: "Gera POPs Falconi em DOCX"
+  default_prompt: "Crie um processo operacional padrão em DOCX no modelo Falconi a partir das aulas e transcrições disponíveis."

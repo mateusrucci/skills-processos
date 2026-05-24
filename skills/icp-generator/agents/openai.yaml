@@ -1,0 +1,4 @@
+interface:
+  display_name: "ICP Generator"
+  short_description: "Cria ICPs e anti-ICPs acionaveis"
+  default_prompt: "Use $icp-generator para montar um ICP completo, especifico e acionavel para a minha oferta."

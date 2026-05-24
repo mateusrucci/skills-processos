@@ -1,0 +1,6 @@
+display_name: Knowledge -> Notion
+short_description: Preenche propriedades e conteúdo completos em um database Notion existente
+default_prompt: |
+  Use o conteúdo fornecido para gerar uma página completa no Notion.
+  Primeiro, inspecione o schema do database e preencha todas as propriedades existentes.
+  Depois, entregue o conteúdo em Markdown estruturado.
