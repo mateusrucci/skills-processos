@@ -1,0 +1,13 @@
+version = 1
+id = "pesquisa-de-noticias-importantes-do-ultimo-dia"
+kind = "cron"
+name = "Pesquisa de noticias importantes do ultimo dia."
+prompt = "use a skill [$blog-research](/Users/mateusrucci/.codex/skills/blog-research/SKILL.md) para pesquisar temas votlados a Marketing digital, trafego pago, funis de vendas, Inteligencia artificial para o cliente mateus-rucci. - Sempre coloque a data que foram buscadaas as informacoes."
+status = "ACTIVE"
+rrule = "RRULE:FREQ=WEEKLY;BYHOUR=8;BYMINUTE=0;BYDAY=SU,MO,TU,WE,TH,FR,SA"
+model = "gpt-5.4"
+reasoning_effort = "medium"
+execution_environment = "worktree"
+cwds = ["/Users/mateusrucci/Desktop/meus-scripts-apps-script/Site Mateus"]
+created_at = 1778032896326
+updated_at = 1778372258349

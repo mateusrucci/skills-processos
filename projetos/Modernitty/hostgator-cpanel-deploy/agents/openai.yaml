@@ -1,0 +1,4 @@
+interface:
+  display_name: "HostGator cPanel Deploy"
+  short_description: "Deploy HostGator/cPanel automatizado."
+  default_prompt: "Configure ou corrija o deploy HostGator/cPanel deste projeto usando GitHub Actions, CPANEL_API_TOKEN, scripts centrais em shared e sites/<pagina>."

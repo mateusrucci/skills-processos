@@ -1,0 +1,26 @@
+{
+  "name": "copywriter-senior",
+  "version": "1.0.0",
+  "description": "Skill master de copywriting de altíssimo nível. Aplica os frameworks consolidados dos 5 livros-bíblia do copy direto — Great Leads (Michael Masterson), Quick-Start Copywriting System Vol 1 e 2 (Clayton Makepeace), A Carta de Vendas de 16 Palavras (Evaldo Albuquerque) e Ultimate Offer Formula (Frank Kern). Use quando precisar de copy de alto nível: VSL, carta de vendas, advertorial, anúncio de resposta direta, headlines, mecanismo único, oferta irresistível, fechamento, garantias e revisão de copy persuasivo.",
+  "author": {
+    "name": "Mateus Rucci",
+    "email": "trafego@mateusrucci.com.br",
+    "url": "https://mateusrucci.com.br"
+  },
+  "homepage": "https://github.com/mateusrucci/copywriter-senior-plugin",
+  "license": "MIT",
+  "keywords": [
+    "copywriting",
+    "direct-response",
+    "vsl",
+    "sales-letter",
+    "marketing",
+    "persuasion",
+    "evaldo-albuquerque",
+    "frank-kern",
+    "michael-masterson",
+    "clayton-makepeace",
+    "eugene-schwartz"
+  ],
+  "category": "writing"
+}
