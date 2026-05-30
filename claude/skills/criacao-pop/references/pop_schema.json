@@ -1,0 +1,117 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "POP — Procedimento Operacional Padrão (Soufit/Soulve)",
+  "type": "object",
+  "required": [
+    "empresa",
+    "codigo_pop",
+    "area",
+    "estabelecido_em",
+    "nome_tarefa",
+    "responsavel",
+    "revisao",
+    "objetivo",
+    "material_necessario",
+    "passos_criticos",
+    "manuseio_material",
+    "resultados_esperados",
+    "acoes_corretivas",
+    "fontes"
+  ],
+  "properties": {
+    "empresa": {
+      "type": "string",
+      "description": "Nome da empresa que aparece no canto superior esquerdo. Ex: Soufit, Soulve."
+    },
+    "codigo_pop": {
+      "type": "string",
+      "pattern": "^POP-[A-Z]{2,4}-\\d{3}$",
+      "description": "Código único no formato POP-AREA-NNN. Ex: POP-CRM-001."
+    },
+    "area": {
+      "type": "string",
+      "description": "Área completa por extenso. Ex: 'CRM / E-mail Marketing'."
+    },
+    "area_curta": {
+      "type": "string",
+      "description": "Versão curta da área para a linha de Executor na Aprovação. Ex: 'CRM'. Opcional."
+    },
+    "estabelecido_em": {
+      "type": "string",
+      "pattern": "^\\d{2}/\\d{2}/\\d{4}$",
+      "description": "Data de criação no formato DD/MM/AAAA."
+    },
+    "revisado_em": {
+      "type": "string",
+      "description": "Data da última revisão (vazio na primeira versão). Formato DD/MM/AAAA."
+    },
+    "nome_tarefa": {
+      "type": "string",
+      "description": "Nome da tarefa, verbo no infinitivo. Ex: 'Estruturar fluxos de e-mail e jornada do cliente'."
+    },
+    "responsavel": {
+      "type": "string",
+      "description": "Cargo do responsável (não nome de pessoa). Ex: 'Responsável de CRM'."
+    },
+    "revisao": {
+      "type": "string",
+      "description": "Número da revisão. 'primeira' na criação inicial, '2', '3' etc. nas próximas."
+    },
+    "objetivo": {
+      "type": "string",
+      "description": "Frase única começando com verbo no infinitivo descrevendo o que o POP garante."
+    },
+    "material_necessario": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "required": ["item", "quantidade", "observacao"],
+        "properties": {
+          "item": { "type": "string" },
+          "quantidade": { "type": "string", "description": "Pode ser número, '1 por X' ou 'A confirmar'." },
+          "observacao": { "type": "string" }
+        }
+      }
+    },
+    "passos_criticos": {
+      "type": "array",
+      "minItems": 15,
+      "maxItems": 30,
+      "items": {
+        "type": "string",
+        "description": "Ação observável, verbo no infinitivo. Sem numeração no início (o gerador adiciona)."
+      }
+    },
+    "manuseio_material": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 8,
+      "items": { "type": "string" }
+    },
+    "resultados_esperados": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 10,
+      "items": {
+        "type": "string",
+        "description": "Output verificável. Sem numeração no início."
+      }
+    },
+    "acoes_corretivas": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 10,
+      "items": {
+        "type": "string",
+        "pattern": "^[Ss]e ",
+        "description": "Ação corretiva DEVE começar com 'Se '. Sem numeração no início."
+      }
+    },
+    "fontes": {
+      "type": "string",
+      "description": "Origem do conteúdo. Se a fonte estiver truncada ou incompleta, sinalize explicitamente."
+    }
+  }
+}

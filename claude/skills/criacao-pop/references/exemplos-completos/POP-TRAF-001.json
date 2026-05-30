@@ -1,0 +1,72 @@
+{
+  "empresa": "Soufit",
+  "codigo_pop": "POP-TRAF-001",
+  "area": "Tráfego Pago / Pesquisa de Criativos",
+  "area_curta": "Tráfego",
+  "estabelecido_em": "24/05/2026",
+  "revisado_em": "",
+  "nome_tarefa": "Fazer espionagem de tráfego e montar swipe file",
+  "responsavel": "Gestor de tráfego",
+  "revisao": "primeira",
+  "objetivo": "Padronizar a pesquisa de referências de tráfego e a organização de um swipe file para capturar, classificar e reutilizar ideias de criativos, ofertas, ângulos e estruturas de campanhas",
+  "material_necessario": [
+    {"item": "Transcrição da aula", "quantidade": "1", "observacao": "Fonte enviada pelo usuário. A transcrição está truncada e deve ser revisada pelo responsável"},
+    {"item": "Biblioteca de anúncios / fontes de espionagem", "quantidade": "A confirmar", "observacao": "Exemplos: Meta Ads Library, Google, páginas de concorrentes, landing pages, funis, criativos salvos e outras fontes aprovadas"},
+    {"item": "Swipe file central", "quantidade": "1", "observacao": "Pode ser pasta no Drive, planilha, Notion, Airtable ou ferramenta definida pela equipe"},
+    {"item": "Pasta de Drive para arquivos brutos", "quantidade": "1", "observacao": "A transcrição menciona Drive; usar para prints, vídeos, imagens e arquivos capturados"},
+    {"item": "Modelo de classificação", "quantidade": "1", "observacao": "Campos sugeridos: marca, nicho, produto, oferta, ângulo, promessa, criativo, formato, fonte, link, data, observações e status"},
+    {"item": "Ferramenta de captura", "quantidade": "1", "observacao": "Print, gravação de tela, extensão do navegador ou download permitido pela fonte"}
+  ],
+  "passos_criticos": [
+    "Definir o objetivo da espionagem antes de pesquisar: buscar ângulos, formatos de criativo, ofertas, headlines, landing pages, funis ou provas sociais",
+    "Definir o nicho, produto, concorrente, persona ou categoria que será pesquisada",
+    "Abrir as fontes aprovadas de pesquisa e espionagem, como bibliotecas de anúncios, Google, páginas públicas de concorrentes, redes sociais e arquivos já salvos pela equipe",
+    "Pesquisar por termos relacionados ao produto, dores, benefícios, marcas concorrentes e palavras-chave do nicho",
+    "Selecionar apenas referências que tenham potencial operacional para a equipe, evitando salvar itens aleatórios sem hipótese de uso",
+    "Para cada referência encontrada, capturar o criativo ou página de forma que seja possível consultar depois: print, vídeo, link, texto ou arquivo bruto",
+    "Salvar o arquivo bruto na pasta correta do Drive ou repositório definido pela equipe",
+    "Registrar a referência no swipe file central imediatamente após a captura para evitar perda de contexto",
+    "Preencher os campos mínimos da referência: fonte, link, data de captura, marca/concorrente, nicho, produto, formato do criativo e observação principal",
+    "Classificar o tipo de referência: oferta, headline, promessa, mecanismo, prova social, criativo visual, vídeo, página de vendas, isca, VSL, e-mail, funil ou outro tipo aplicável",
+    "Descrever qual é o insight útil da referência, não apenas colar o link. Registrar por que aquilo pode ser reaproveitado ou testado",
+    "Quando a referência for um anúncio, identificar ângulo de entrada, dor explorada, benefício prometido, CTA, formato e possível etapa do funil",
+    "Quando a referência for uma landing page, observar estrutura da página, promessa principal, ordem dos blocos, prova, oferta, FAQ e CTA",
+    "Quando a referência for imagem ou vídeo, registrar os elementos visuais relevantes: gancho inicial, enquadramento, estilo, texto na tela, ritmo, demonstração, prova ou antes/depois",
+    "Agrupar referências por tema, nicho ou uso pretendido para facilitar recuperação futura",
+    "Criar uma rotina de manutenção do swipe file, removendo duplicados, corrigindo links quebrados e atualizando status das melhores referências",
+    "Antes de usar uma referência em campanha, transformar o insight em uma ideia original adaptada ao produto, sem copiar marca, promessa proprietária, imagem, identidade ou material protegido",
+    "Priorizar referências que possam gerar hipóteses claras de teste, como novo ângulo, nova oferta, nova headline, novo formato ou novo criativo",
+    "Ao montar uma pauta de criativos, selecionar referências do swipe file e explicar o que será testado em cada uma",
+    "Registrar quais referências viraram testes e quais resultados obtiveram, quando essa informação estiver disponível",
+    "Se a pesquisa não encontrar boas referências, ampliar termos, nichos adjacentes, produtos substitutos e mercados internacionais, mantendo critério de pertinência",
+    "Revisar periodicamente o swipe file para evitar que vire apenas depósito de prints sem uso prático"
+  ],
+  "manuseio_material": [
+    "Salvar prints, vídeos e arquivos brutos em pasta padronizada no Drive, separada por nicho, cliente, produto ou campanha",
+    "Manter o swipe file central sempre atualizado com link para o arquivo bruto e para a fonte original",
+    "Não salvar dados sensíveis, credenciais, informações privadas ou materiais obtidos por acesso indevido",
+    "Usar nomenclatura padrão nos arquivos: data, fonte, marca, nicho e tipo de referência",
+    "Manter uma coluna ou campo de status para indicar se a referência está nova, analisada, usada em teste, aprovada, descartada ou duplicada",
+    "Preservar o histórico de referências que geraram ideias ou testes para facilitar aprendizado da equipe"
+  ],
+  "resultados_esperados": [
+    "Swipe file contém referências organizadas, encontráveis e acompanhadas de insight operacional",
+    "Cada referência possui link, fonte, data, classificação e arquivo bruto quando aplicável",
+    "A equipe consegue transformar referências em hipóteses de criativos, ofertas ou ângulos sem depender de memória individual",
+    "Materiais ficam centralizados em Drive ou ferramenta equivalente, evitando perda de prints e links",
+    "Referências usadas em campanhas são adaptadas de forma original e alinhada ao produto",
+    "O processo reduz tempo de pesquisa para novos criativos e aumenta repertório da equipe de tráfego",
+    "O swipe file deixa de ser apenas biblioteca passiva e passa a orientar testes de campanha"
+  ],
+  "acoes_corretivas": [
+    "Se a referência foi salva sem contexto, preencher fonte, motivo do salvamento, ângulo e possível aplicação antes de considerar a entrada válida",
+    "Se houver muitos itens duplicados, consolidar entradas e manter apenas a versão mais completa",
+    "Se links quebrarem, procurar o arquivo bruto salvo; se não existir, marcar como link indisponível ou descartar",
+    "Se a equipe estiver copiando referências literalmente, pausar o uso e reescrever a ideia como adaptação original para evitar risco de plágio ou desalinhamento de marca",
+    "Se o swipe file ficar muito grande e pouco útil, revisar categorias, filtros e status para separar referências acionáveis de arquivo histórico",
+    "Se a pesquisa não trouxer boas ideias, revisar objetivo da espionagem, ampliar termos e buscar nichos adjacentes",
+    "Se arquivos estiverem fora da pasta padrão, mover para o Drive correto e atualizar o link no swipe file",
+    "Se houver dúvida sobre permissão de uso de uma imagem, vídeo ou texto, não usar diretamente; extrair apenas o conceito e criar uma nova execução"
+  ],
+  "fontes": "Transcrição enviada pelo usuário: Como fazer espionagem e montar um Swipe File de Tráfego. Observação: transcrição com reconhecimento de fala muito truncado; procedimento estruturado pelo tema da aula e pelos termos identificáveis: swipe file, library, Drive, image e Google. Deve ser revisado pelo responsável"
+}

@@ -1,0 +1,71 @@
+{
+  "empresa": "Soufit",
+  "codigo_pop": "POP-COPY-001",
+  "area": "Copywriting / Conteúdo",
+  "area_curta": "Copy",
+  "estabelecido_em": "24/05/2026",
+  "revisado_em": "",
+  "nome_tarefa": "Criar copy para materiais ricos e ebooks",
+  "responsavel": "Copywriter",
+  "revisao": "primeira",
+  "objetivo": "Padronizar a criação de copy para materiais ricos, especialmente ebooks, garantindo alinhamento de escopo, clareza de promessa, estrutura de promoção e entrega pronta para revisão e publicação",
+  "material_necessario": [
+    {"item": "Briefing do material rico", "quantidade": "1", "observacao": "Deve conter tema, objetivo, público, oferta, promessa, canal de distribuição e etapa da jornada"},
+    {"item": "Escopo do ebook/material", "quantidade": "1", "observacao": "A transcrição menciona scope/book, mas não detalha campos obrigatórios. A confirmar com o responsável"},
+    {"item": "Template ou playbook de copy", "quantidade": "1", "observacao": "A transcrição menciona playbook/template. Usar o modelo vigente da equipe quando existir"},
+    {"item": "Material base do ebook", "quantidade": "1", "observacao": "Conteúdo bruto, tópicos, aula, artigo, transcrição, pesquisa ou roteiro que servirá de fonte"},
+    {"item": "Banco de argumentos e provas", "quantidade": "1", "observacao": "Benefícios, dores, objeções, dados, cases, exemplos, depoimentos e provas de autoridade"},
+    {"item": "Documento de revisão/aprovação", "quantidade": "1", "observacao": "Usar Google Docs, Notion ou outro local definido para comentários e aprovações"},
+    {"item": "Ferramenta de apoio com IA", "quantidade": "opcional", "observacao": "Usar apenas como apoio, mantendo revisão humana"}
+  ],
+  "passos_criticos": [
+    "Receber o briefing do material rico antes de iniciar a copy",
+    "Confirmar qual é o tipo de material: ebook, guia, checklist, playbook, template, relatório ou outro formato rico",
+    "Definir o objetivo comercial do material: capturar lead, nutrir lead, qualificar oportunidade, apoiar venda, educar mercado ou reativar base",
+    "Identificar o público-alvo, nível de consciência e etapa da jornada em que o material será usado",
+    "Definir a promessa central do material em uma frase simples, deixando claro o ganho que a pessoa terá ao baixar ou consumir o ebook",
+    "Levantar os principais argumentos de valor: dores resolvidas, benefícios, mecanismo, provas, exemplos, autoridade e contexto de uso",
+    "Mapear as objeções prováveis do público antes do download ou consumo, como falta de tempo, dúvida sobre utilidade, baixa confiança ou falta de clareza sobre o resultado",
+    "Conferir se existe template, playbook ou padrão de estrutura já aprovado para materiais ricos. Se existir, usar como base",
+    "Criar a estrutura da copy antes de escrever o texto final, incluindo título, subtítulo, bullets de valor, chamada de ação, bloco de autoridade e indicação do que a pessoa receberá",
+    "Escrever o título com foco na transformação ou resultado do material, evitando nomes genéricos como apenas Ebook ou Guia",
+    "Escrever o subtítulo explicando para quem é o material, qual problema resolve e qual resultado prático entrega",
+    "Criar bullets objetivos sobre o que a pessoa vai aprender ou conseguir fazer após consumir o material",
+    "Incluir uma chamada de ação direta para baixar, acessar ou receber o material, de acordo com o canal de distribuição",
+    "Se o material for usado em landing page, criar copy para headline, subheadline, bullets, formulário, botão, prova/autoridade e bloco final de reforço",
+    "Se o material for usado em e-mail ou promoção, adaptar a copy para assunto, preheader, abertura, promessa, prova e CTA",
+    "Se houver uso de IA, fornecer contexto suficiente para a ferramenta: briefing, público, objetivo, tom de voz, promessa, estrutura e restrições",
+    "Revisar a copy comparando com o escopo do ebook para garantir que a promessa não venda algo que o material não entrega",
+    "Checar se a copy está específica, clara e orientada a ação. Remover frases genéricas, exageros sem prova e benefícios vagos",
+    "Enviar a primeira versão para revisão do responsável, destacando pontos que precisam de confirmação",
+    "Aplicar ajustes da revisão e salvar a versão final no local definido pela equipe",
+    "Registrar aprendizados, exemplos bons e melhorias no playbook/template para uso em próximos materiais"
+  ],
+  "manuseio_material": [
+    "Salvar briefing, escopo, rascunho e versão final na pasta do projeto ou no sistema definido pela equipe",
+    "Nomear arquivos com tipo do material, tema, data e status, por exemplo: Ebook CRM - Copy Landing Page - v1",
+    "Manter comentários e histórico de revisão no documento até a aprovação final",
+    "Não substituir a versão aprovada sem registrar nova revisão",
+    "Quando usar IA, manter o output como apoio e não como fonte final sem revisão humana"
+  ],
+  "resultados_esperados": [
+    "Copy possui promessa clara, específica e alinhada ao conteúdo real do ebook",
+    "Texto comunica rapidamente para quem é o material e por que ele vale o download",
+    "Landing page, e-mail ou peça promocional possui CTA direto e coerente com o objetivo",
+    "Copy usa argumentos, benefícios e provas relevantes para o público",
+    "Não há promessa exagerada, vaga ou desalinhada ao escopo do material",
+    "Responsável consegue revisar o texto sem precisar reconstruir briefing ou escopo",
+    "Versão final fica salva em local centralizado e pronta para design, publicação ou configuração da campanha"
+  ],
+  "acoes_corretivas": [
+    "Se o briefing estiver incompleto, pausar a escrita e solicitar objetivo, público, promessa, oferta e canal de uso",
+    "Se a promessa da copy estiver maior que a entrega do ebook, ajustar título, subtítulo e bullets para refletir o conteúdo real",
+    "Se a copy estiver genérica, revisar benefícios, dores e provas até que cada bloco diga algo específico e verificável",
+    "Se houver dúvida sobre o template correto, consultar o playbook vigente ou pedir validação ao responsável antes de finalizar",
+    "Se a IA gerar texto impreciso ou exagerado, reescrever manualmente com base no briefing e nas provas disponíveis",
+    "Se o revisor apontar desalinhamento com a estratégia, voltar ao escopo e refazer a estrutura antes de mexer apenas em frases soltas",
+    "Se o material não tiver provas ou argumentos suficientes, solicitar exemplos, dados, cases ou benefícios adicionais antes da versão final",
+    "Se a copy não estiver convertendo após publicada, propor teste A/B de título, promessa, CTA, bullets ou formato de oferta"
+  ],
+  "fontes": "Transcrição enviada pelo usuário: Criar Copy para Materiais Ricos (Ebooks). Observação: transcrição com reconhecimento de fala muito truncado; pontos operacionais foram estruturados de forma conservadora e devem ser revisados pelo responsável"
+}

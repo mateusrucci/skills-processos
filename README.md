@@ -7,12 +7,13 @@ Repositorio central com todas as skills, regras, automacoes e processos operacio
 ```
 .
 ├── claude/
-│   └── skills/               # 17 skills do ~/.claude/skills (versao mais recente)
+│   └── skills/               # 22 skills do ~/.claude/skills (versao mais recente)
 ├── codex/
 │   ├── skills/               # Skills exclusivas do ~/.codex/skills
 │   ├── rules/                # ~/.codex/rules
 │   └── automations/          # ~/.codex/automations
 ├── projetos/                 # Skills isoladas em projetos especificos
+│   ├── agente-gestor/        # Doc-guia do projeto Gestor Mestre (GESTOR_MESTRE.md)
 │   ├── Cal-Agendador/
 │   ├── Extrator-Kindle-Antigravity/
 │   ├── Foto-Gloria-Chatwoot/
@@ -20,14 +21,19 @@ Repositorio central com todas as skills, regras, automacoes e processos operacio
 │   └── copywriter-senior-plugin/
 └── processos/
     ├── avulsos/              # SKILL deploys avulsos, github-yeet
-    └── processo-de-aula/     # POPs detalhados de processos
+    ├── processo-de-aula/     # POPs detalhados de processos
+    └── soufit/               # Espelho do ClickUp: processos internos + ativos de marketing
+        ├── processos-internos/   # POPs Falconi (Trafego, CRM, Copy)
+        └── ativos-marketing/     # Produtos (20), Design System, Calendarios
 ```
 
-Skills duplicadas entre `~/.claude/skills` e `~/.codex/skills` foram deduplicadas — sempre que houve divergencia, foi mantida a versao do `.claude/` (mais completa, contem por exemplo `08-falconi-headline-testing.md`).
+Skills duplicadas entre `~/.claude/skills` e `~/.codex/skills` foram deduplicadas — sempre que houve divergencia, foi mantida a versao do `.claude/` (mais completa).
+
+O repo e atualizado manualmente de tempos em tempos com `rsync` (ver secao "Como atualizar" no final).
 
 ---
 
-## claude/skills/ — Skills principais (17)
+## claude/skills/ — Skills principais (22)
 
 ### Blog (pipeline completo)
 
@@ -74,7 +80,17 @@ Skills duplicadas entre `~/.claude/skills` e `~/.codex/skills` foram deduplicada
 |-------|-----------|
 | [`redtrack-api`](claude/skills/redtrack-api/) | Master skill para automacoes Google Apps Script com a RedTrack API (landings, offers, campaigns, domains, streams, conversions). |
 | [`clickup-task-creator`](claude/skills/clickup-task-creator/) | Cria, divide, atualiza e analisa tasks/subtasks no ClickUp via integracao conectada. |
+| [`clickup-task-manager`](claude/skills/clickup-task-manager/) | Cria, estrutura e gerencia tasks no ClickUp do Mateus Rucci com padroes reais (workspaces, listas e user IDs ja mapeados, sem acentos). |
 | [`knowledge-to-notion`](claude/skills/knowledge-to-notion/) | Transforma conteudo bruto em pagina completa no Notion, preenchendo propriedades do database e gerando Markdown final. |
+
+### Gestao / Contexto / Processos
+
+| Skill | Descricao |
+|-------|-----------|
+| [`gestor-mestre`](claude/skills/gestor-mestre/) | Consigliere de gestao baseado em 6 livros classicos (Falconi, Drucker, Bossidy/Charan, Gerber, Gawande). 4 modos: CONSULTA, DIRECIONAMENTO, PROATIVO, SINTESE. Cita sempre a fonte. |
+| [`contexto-soufit`](claude/skills/contexto-soufit/) | Contexto canonico da SouFit / Grupo MDT — 20 produtos, design system, voz, deploy, ANVISA, mapa de arquivos. Carrega memoria, nao escreve copy. |
+| [`okr-manager`](claude/skills/okr-manager/) | Cria, estrutura e faz check-in de OKRs seguindo Felipe Castro + John Doerr. Aplica os 4 Superpoderes (Foco, Alinhamento, Acompanhamento, Desafio) e CFRs. |
+| [`criacao-pop`](claude/skills/criacao-pop/) | Cria POPs Falconi padronizados (8 blocos: Cabecalho, Objetivo, Material, Passos Criticos, Manuseio, Resultados, Acoes Corretivas, Aprovacao) com saida em .docx. |
 
 ---
 
